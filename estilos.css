@@ -1,0 +1,163 @@
+*{ 
+box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    min-height: 100vh;
+}
+
+.contenedor_slider{ 
+width: 90%;
+max-width: 900px;
+margin: auto;
+}
+
+.slider_img{ 
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider{
+display:flex;
+width:100%;
+height:100%;
+
+}
+
+.slider_section{
+width: 100%;
+
+}
+
+.slider_btn{
+position: absolute;  
+width: 40%;
+height: 40%;
+background:white ;  
+top: 50%;
+transform: translateY(-50%);
+font-size:30%;
+font-family: monospace;
+text-align: center;
+border-radius:50%;
+}
+.contenedor_slider h1{
+    color: blue;
+}
+
+.registro{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(118, 212, 243);
+
+}
+.registro button{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    display: inline-flex;
+    align-items: center;
+}
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    
+    
+    display: flex;
+    justify-content: center
+}
+.video iframe{
+    position: absolute;
+    top:100px;
+    width: 500px;
+    height: 350px;
+    justify-content: center
+}
+
+.botonesvariado button {
+    padding: 3px 10px;
+    
+    
+    border-bottom-right-radius: 20px;
+}
+.btn1{
+    background-color: rgb(231, 94, 94);
+}
+.btn2{
+    background-color: rgb(57, 9, 136);
+}
+.btn3{
+    background-color: rgb(88, 207, 19);
+}
+.btn4{
+    background-color: rgb(231, 18, 28);
+}
+.btn5{
+    background-color: rgb(99, 231, 94);
+}
+.btn6{
+    background-color: rgb(131, 94, 231);
+}
+.btn7{
+    background-color: rgb(231, 222, 94);
+}
+.btn8{
+    background-color: rgb(231, 94, 94);
+}
+.btn9{
+    background-color: rgb(94, 181, 231);
+}
+
+
+.btnregistro{
+    background-color: black;
+    top: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: blanchedalmond;
+}
+
+.container{
+    width:95%;
+    max-width:900px;
+    padding:32px 64px;
+    margin:auto;
+}
+
+.social{
+    /*las imágenes usadas tienen width de 48px*/
+    width: 100px;
+    height: 100px;
+    
+    position:fixed;
+    top:50px;
+    right:80px;
+}
+
+
+
+.button5 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   height: 50%;
+   
+ /*     -moz-border-radius: 90%;
+     -webkit-border-radius: 90%; */
+     border-radius: 50%;
+     
+  }
